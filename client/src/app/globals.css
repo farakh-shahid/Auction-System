@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: rgb(239 246 255);
+}
+.custom-table {
+  cursor: pointer;
+}
+
+.rs-table-scrollbar-pressed .rs-table-scrollbar-handle {
+  background-color: #ffffff !important;
+}
